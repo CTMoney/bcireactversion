@@ -1,0 +1,51 @@
+body {
+  background-color: whitesmoke
+}
+
+ul#navBarContainer {
+  padding-bottom: 2.5rem;
+  width: 43%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul#navBarContainer li{
+  display: flex;
+  float: left;
+  margin: 0px;
+  padding: 0px 10px;
+}
+
+a#navBarLink {
+  text-decoration: none;
+}
+a#navBarLink:visited {
+  color:blue;
+ }
+
+a#navBarLink:hover {
+ color:navy;
+}
+a#navBarLink:active {
+  color: purple;
+ }
+
+div#footer {
+  position: absolute;
+  bottom: 0.1em;
+  left: 33%;
+}
+
+div#footer hr {
+  width: 75%;  
+}
+
+div#footer p {
+  text-align: center;
+}
+
+img#imageHeader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

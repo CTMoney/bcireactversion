@@ -2,9 +2,13 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div>
-     6
-    </div>
+    <>
+      <div id="aboutUsPage">
+        <p>
+          A B O U T
+        </p>
+      </div>
+    </>
   )
 }
 

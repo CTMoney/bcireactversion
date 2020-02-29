@@ -2,9 +2,9 @@ import React from 'react'
 
 const Feedback = () => {
   return (
-    <div>
-      7
-    </div>
+    <>
+      F E E D B A C K
+    </>
   )
 }
 

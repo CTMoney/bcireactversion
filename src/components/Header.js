@@ -1,10 +1,9 @@
 import React from 'react'
+import HeaderImg from '../images/HeaderLogoVer2.png'
 
 const Header = () => {
   return (
-    <div>
-      head
-    </div>
+    <img id="imageHeader" src={HeaderImg} />
   )
 }
 
