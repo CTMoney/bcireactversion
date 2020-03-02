@@ -6,7 +6,9 @@ const Footer = () => {
     <hr />
       <p style={{marginTop: "0px"}}>
         <small>
-          Contact <a href="#">lorem@ipsum.xyz</a> with questions and comments about this site <br/> Copyright © 1876-20xx ■︎□︎♌︎□︎♎︎⍓︎ Inc.
+          Contact <a href="#">lorem@ipsum.xyz</a> with questions and comments about this site 
+          <br/> 
+          © 1876-20xx ■︎□︎♌︎□︎♎︎⍓︎ Inc. All Rights Reserved.
         </small>
       </p>
     </div>

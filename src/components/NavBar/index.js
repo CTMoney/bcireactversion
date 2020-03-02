@@ -12,7 +12,6 @@ export default class Index extends Component {
             <li><Link id="navBarLink" to="/products">Products</Link></li>
             <li><Link id="navBarLink" to="/contact">Contact Us</Link></li>
             <li><Link id="navBarLink" to="/about">About Us</Link></li>
-            <li><Link id="navBarLink" to="/feedback">Feedback</Link></li>
           </ul>
         </div>
       </>
