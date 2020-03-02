@@ -8,7 +8,6 @@ import ContactUs from './pages/ContactUs'
 import Feedback from './pages/Feedback'
 import Home from './pages/Home'
 import Products from './pages/Products'
-import Search from './pages/Search'
 import Services from './pages/Services'
 
 export default class App extends Component {
@@ -24,7 +23,6 @@ export default class App extends Component {
             <Route path="/contact" component={ContactUs} />
             <Route path="/feedback" component={Feedback} />
             <Route path="/products" component={Products} />
-            <Route path="/search" component={Search} />
             <Route path="/services" component={Services} />
           </Switch>
         </Router>

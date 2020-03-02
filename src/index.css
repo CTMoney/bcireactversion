@@ -1,7 +1,12 @@
+/* Background */
 body {
   background-color: whitesmoke
 }
+/* Background */
+/*------------*/
 
+
+/* NavBar */
 ul#navBarContainer {
   padding-bottom: 2.5rem;
   width: 43%;
@@ -28,7 +33,11 @@ a#navBarLink:hover {
 a#navBarLink:active {
   color: purple;
  }
+ /* NavBar */
+ /*--------*/
 
+
+ /* Footer */
 div#footer {
   position: absolute;
   bottom: 0.1em;
@@ -42,10 +51,45 @@ div#footer hr {
 div#footer p {
   text-align: center;
 }
+ /* Footer */
+ /*--------*/
 
+
+ /* Header */
 img#imageHeader {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+/* Header */
+/*--------*/
+
+
+/* Home */
+div#homePage li{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0.1em;
+}
+/* Home */
+/*------*/
+
+/* About */
+div#aboutUsPage p{
+  width: 70%;
+}
+/* About */
+/*-------*/
+
+/* Services */
+div#servicesPage dt{
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+div#servicesPage dd{
+  width: 70%;
+}
+/* Services */
+/*----------*/
