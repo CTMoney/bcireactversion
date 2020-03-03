@@ -11,7 +11,7 @@
 ---
 ## To-Do
   - [x] Basic file structure
-  - [ ] Create global components
+  - [x] Create global components
   - [ ] Recreate pages
   - [ ] Mobile friendly
 ---

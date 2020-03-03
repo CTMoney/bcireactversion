@@ -28,7 +28,18 @@ const ContactUs = () => {
 
   return (
     <>
-      <h2>Leave us a Message</h2>
+      <div>
+        <h2>Contact Us</h2>
+        <p>Ipsum Lorem R&D Office</p>
+        <p><small>420 Park Avenue</small></p>
+        <p><small>Miami, FL 331XX</small></p>
+        <p><small>xxx-456-7890</small></p>
+        <p>General Information: info@ipsum.xyz</p>
+        <p>Sales: sales@ipsum.xyz</p>
+        <p>Customer Support: support@ipsum.xyz</p>
+        <p>Webmaster: admin@ipsum.xyz</p>
+      </div>
+      <h2>Send us a Message</h2>
       <form onSubmit={handleSubmit}>
         <div>
           {/* <label htmlFor='name'></label> */}
@@ -124,17 +135,6 @@ const ContactUs = () => {
           Submit
         </button>
       </form>
-      <div>
-        <h2>Contact Us</h2>
-        <p>Ipsum Lorem R&D Office</p>
-        <p><small>420 Park Avenue</small></p>
-        <p><small>Miami, FL 331XX</small></p>
-        <p><small>xxx-963-8642</small></p>
-        <p>General Information: info@ipsum.xyz</p>
-        <p>Sales: sales@ipsum.xyz</p>
-        <p>Customer Support: support@ipsum.xyz</p>
-        <p>Webmaster: admin@ipsum.xyz</p>
-      </div>
     </>
   )
 }

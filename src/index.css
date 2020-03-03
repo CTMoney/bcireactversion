@@ -1,35 +1,37 @@
-/* Background */
+@import-normalize;
+
+/* Body */
 body {
-  background-color: whitesmoke
+  background-color: white;
 }
-/* Background */
+/* Body */
 /*------------*/
 
 
 /* NavBar */
-ul#navBarContainer {
-  padding-bottom: 2.5rem;
-  width: 43%;
-  margin-left: auto;
-  margin-right: auto;
-}
-ul#navBarContainer li{
+div#navBarContainer {
   display: flex;
-  float: left;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 2.5rem;
   margin: 0px;
-  padding: 0px 10px;
 }
 
 a#navBarLink {
+  justify-content: center;
+  margin: 0px;
+  padding: 0px 10px;
   text-decoration: none;
 }
+
 a#navBarLink:visited {
   color:blue;
- }
+}
 
 a#navBarLink:hover {
  color:navy;
 }
+
 a#navBarLink:active {
   color: purple;
  }
@@ -38,30 +40,36 @@ a#navBarLink:active {
 
 
  /* Footer */
-div#footer {
-  position: absolute;
-  bottom: 0.1em;
-  left: 33%;
+div#footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
 
-div#footer hr {
-  width: 75%;  
+div#footerContainer hr {
+  width: 40%;  
 }
 
-div#footer p {
-  text-align: center;
+div#footerContainer br {
+  content: " ";
+}
+
+div#footerContainer small {
+  margin-top: 0.4em;
 }
  /* Footer */
  /*--------*/
 
 
  /* Header */
-img#imageHeader {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+div#imageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 /* Header */
 /*--------*/
 
@@ -93,3 +101,11 @@ div#servicesPage dd{
 }
 /* Services */
 /*----------*/
+
+/* Router */
+div#routeWrapper {
+  min-height: calc(100vh - 70px);
+
+}
+/* Router */
+/*--------*/

@@ -3,7 +3,9 @@ import HeaderImg from '../images/HeaderLogoVer2.png'
 
 const Header = () => {
   return (
-    <img id="imageHeader" src={HeaderImg} />
+    <div id="imageHeader">
+      <img src={HeaderImg} />
+    </div>
   )
 }
 
