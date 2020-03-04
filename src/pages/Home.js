@@ -59,6 +59,11 @@ const Home = () => {
           solution to our customers.
         </p>
       </div>
+      <div id="homePageImgWrapper">
+        <img id="primaryImage" src="https://picsum.photos/450/750"/>
+        <img id="secondaryImage" src="https://picsum.photos/450/450"/>
+        <img id="secondaryImage" src="https://picsum.photos/id/2/450/450"/>
+      </div>
     </>
   )
 }

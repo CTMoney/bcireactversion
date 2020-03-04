@@ -4,6 +4,7 @@
 body {
   background-color: white;
 }
+
 /* Body */
 /*------------*/
 
@@ -35,6 +36,7 @@ a#navBarLink:hover {
 a#navBarLink:active {
   color: purple;
  }
+
  /* NavBar */
  /*--------*/
 
@@ -59,6 +61,7 @@ div#footerContainer br {
 div#footerContainer small {
   margin-top: 0.4em;
 }
+
  /* Footer */
  /*--------*/
 
@@ -75,10 +78,41 @@ div#imageHeader {
 
 
 /* Home */
+div#homePage {
+  display: inline-block;
+  flex-flow: column;
+  width: 50%;
+}
+
 div#homePage li{
   font-size: 18px;
   font-weight: 600;
   margin: 0.1em;
+}
+
+div#homePage p {
+  min-width: 100%;
+  padding: 0px;
+  margin-right: 0px;
+}
+
+div#homePageImgWrapper {
+  display: inline-flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  width: auto;
+  height: 550px;
+  margin-left: 1.5em;
+}
+
+div img#primaryImage {
+  width: 60%;
+  height: 100%;
+}
+
+div img#secondaryImage {
+  width: 49%;
+  height: 50%;
 }
 /* Home */
 /*------*/
@@ -87,6 +121,7 @@ div#homePage li{
 div#aboutUsPage p{
   width: 70%;
 }
+
 /* About */
 /*-------*/
 
@@ -96,16 +131,27 @@ div#servicesPage dt{
   margin-bottom: 0.5em;
   margin-left: 0.5em;
 }
+
 div#servicesPage dd{
   width: 70%;
 }
+
 /* Services */
 /*----------*/
+
+/* Contact Us */
+div#contactUsPageMessageForm div.inputLine {
+  margin: 5px;
+}
+
+/* Contact Us */
+/*------------*/
 
 /* Router */
 div#routeWrapper {
   min-height: calc(100vh - 70px);
 
 }
+
 /* Router */
 /*--------*/
