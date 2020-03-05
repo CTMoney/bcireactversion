@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bcireactversion/static/css/main.bce59e28.chunk.css",
+    "main.js": "/bcireactversion/static/js/main.edd7b2f8.chunk.js",
+    "main.js.map": "/bcireactversion/static/js/main.edd7b2f8.chunk.js.map",
+    "runtime-main.js": "/bcireactversion/static/js/runtime-main.a3965a64.js",
+    "runtime-main.js.map": "/bcireactversion/static/js/runtime-main.a3965a64.js.map",
+    "static/js/2.5624f854.chunk.js": "/bcireactversion/static/js/2.5624f854.chunk.js",
+    "static/js/2.5624f854.chunk.js.map": "/bcireactversion/static/js/2.5624f854.chunk.js.map",
+    "index.html": "/bcireactversion/index.html",
+    "precache-manifest.153fe231bdcb9b94920f452d72e5a325.js": "/bcireactversion/precache-manifest.153fe231bdcb9b94920f452d72e5a325.js",
+    "service-worker.js": "/bcireactversion/service-worker.js",
+    "static/css/main.bce59e28.chunk.css.map": "/bcireactversion/static/css/main.bce59e28.chunk.css.map",
+    "static/js/2.5624f854.chunk.js.LICENSE.txt": "/bcireactversion/static/js/2.5624f854.chunk.js.LICENSE.txt",
+    "static/media/HeaderLogoVer2.png": "/bcireactversion/static/media/HeaderLogoVer2.15db3bce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3965a64.js",
+    "static/js/2.5624f854.chunk.js",
+    "static/css/main.bce59e28.chunk.css",
+    "static/js/main.edd7b2f8.chunk.js"
+  ]
+}
