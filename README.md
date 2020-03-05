@@ -12,34 +12,26 @@
 ## To-Do
   - [x] Basic file structure
   - [x] Create global components
-  - [ ] Recreate pages
+  - [x] Recreate pages (kinda)
   - [ ] Mobile friendly
 ---
 ## Notes
-```
+
 I've noticed some redundancies in layout such as: the search function - rather than being an addition to the NavBar - is a distinct page, and the Contact Us and Feedback page can be combined cleanly.
 
-There are (in my opinion) a lot of problems with accidental inclusions, grammar, phrasing, and design choices. 
-I'll list them all: 
+There are (in my opinion) some issues with accidental inclusions, grammar, and phrasing. 
 
-  - Global: The steel diamond pattern seems like its missing the mark somehow, logo is too minimalist
+Global - The steel diamond pattern seems like its missing the mark somehow. 
 
-  - Home: Margin-Top on page display bar, "... is to" 
+Home - Margin-Top on "home" bar , "... is to" -> "... to".
 
-  - Services: "posses(s)", "are able  to", redundant hyperlink in last  paragraph, "...engineer: <mailto>Design_quote</mailto>", random button placement
-  
-  - Products: "\", "tu" at footer, random spaces everywhere
+Services - "posses", "are able  to", redundant hyperlink in final paragraph,  "...engineer: ```<mailto>Design_quote</mailto>```", button placement
 
-  - Search: Margin-Top on header image, it's broken
+Products - "\\", "tu", random spaces
 
-  - Contact Us:
+Search - Margin-Top on header image, function doesn't work?, does it need to be its own separate page?
 
-  - About Us: 
+Contact/Feedback - I think it can be one page
 
-  - Feedback: Redundant "... if you provide us contact info ...", clear form button
 
-```
 
-```
-I deleted the search page
-```
