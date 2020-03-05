@@ -14,7 +14,7 @@ div#navBarContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2.5em;
   margin: 0px;
 }
 
@@ -93,6 +93,7 @@ div#homePage li{
 div#homePage p {
   min-width: 100%;
   padding: 0px;
+  margin-top: 3px;
   margin-right: 0px;
 }
 
@@ -140,8 +141,39 @@ div#servicesPage dd{
 /*----------*/
 
 /* Contact Us */
-div#contactUsPageMessageForm div.inputLine {
-  margin: 5px;
+div#contactInfo {
+display: inline-flex;
+width: 50%;
+margin: 0px;
+text-align: center;
+flex-direction: column;
+justify-content: start;
+}
+div#contactInfo p {
+  margin-top: 0em;
+}
+
+div#messageForm {
+  display: inline-flex;
+  width: 50%;
+  margin: 0px;
+  flex-direction: column;
+}
+
+div#messageForm h2 {
+  margin-left: 3em;
+}
+
+div#messageForm div.input {
+  margin: 0.3em;
+}
+
+div#messageForm div#areaInput {
+  margin: 0.3em;
+}
+
+div#messageForm button#formSubmitBtn {
+  margin-left: 19.6em;
 }
 
 /* Contact Us */
